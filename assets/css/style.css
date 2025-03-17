@@ -23,11 +23,6 @@ header {
     box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.297);
 }
 
-.img--destinations {
-    max-width : 100%;
-    height : auto;
-}
-
 /* header  */
 
 .header {
@@ -41,22 +36,27 @@ nav {
 }
 
 /* section destinations  */
-.Destinations {
+.cards {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
 }
 
-.paris {
-    display: flex;
-    flex-direction: row;
+.card {
+    margin: 1%;
+    border: 1px solid black;
+    height: 600px;
 }
 
-.tokyo {
-    display: flex;
-    flex-direction: row;
+.img-card {
+    height: 300px;
+    width : 100%;
+    border: 1px solid black;
 }
 
-.New-York {
-    display: flex;
-    flex-direction: row;
+
+.img--destinations {
+    height: 100%;
+    width: 100%;
 }
