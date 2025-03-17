@@ -23,6 +23,11 @@ header {
     box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.297);
 }
 
+.img--destinations {
+    max-width : 100%;
+    height : auto;
+}
+
 /* header  */
 
 .header {
@@ -31,6 +36,27 @@ header {
     align-items: center;
 }
 
-.cta-header {
+nav {
     display: flex;
+}
+
+/* section destinations  */
+.Destinations {
+    display: flex;
+    flex-direction: row;
+}
+
+.paris {
+    display: flex;
+    flex-direction: row;
+}
+
+.tokyo {
+    display: flex;
+    flex-direction: row;
+}
+
+.New-York {
+    display: flex;
+    flex-direction: row;
 }
