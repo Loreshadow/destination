@@ -17,6 +17,7 @@ body {
     font-size: 2rem;
 }
 
+
 header {
     padding: 40px;
     border: 1px solid black;
@@ -40,7 +41,16 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
+
+ul, li {
+    display: flex; 
+    margin: 10px;
+    margin-right: 30px;
+}
+
+
 
 /* section destinations  */
 .cards {
