@@ -17,7 +17,6 @@ body {
     font-size: 2rem;
 }
 
-
 header {
     padding: 40px;
     margin-bottom: 40px;
@@ -38,7 +37,6 @@ p {
 }
 
 /* header  */
-
 .header {
     display: flex;
     align-items: center;
@@ -49,8 +47,6 @@ ul {
     display: flex; 
     gap: 30px;
 }
-
-
 
 /* section destinations  */
 .cards {
@@ -76,9 +72,8 @@ ul {
     border-radius: 15px;
 }
 
-
 .img--destinations {
-    height: 100%;
+    max-height: 100%;
     width: 100%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
@@ -93,7 +88,6 @@ ul {
     padding: 10px;
     font-size: 1.3rem;
 }
-
 
 .Paris > .cta--secondary{
     background-color: blue;
